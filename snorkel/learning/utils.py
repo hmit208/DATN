@@ -179,7 +179,9 @@ class MentionScorer(Scorer):
                 test_label = self.test_labels[test_label_index, 0]
             except AttributeError:
                 test_label = self.test_labels[i]
-
+            print(test_label)
+            print('test_labels')
+            print(self.test_labels)
             # Set unlabeled examples to -1 by default
             if test_label == 0 and set_unlabeled_as_neg:
                 test_label = -1
