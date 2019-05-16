@@ -215,4 +215,4 @@ def test_LF(session, lf, split, annotator_name):
     test_marginals  = np.array([0.5 * (lf(c) + 1) for c in test_candidates])
     return scorer.score(test_marginals, set_unlabeled_as_neg=False, set_at_thresh_as_neg=False)
 def hmit():
-	print('cccc')
+	print('telll me how')
